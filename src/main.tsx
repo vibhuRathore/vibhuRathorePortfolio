@@ -5,6 +5,8 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <div className="min-h-screen lg:flex lg:justify-center lg:items-start lg:gap-10">
+      <App />
+    </div>
   </StrictMode>,
 )
