@@ -4,9 +4,7 @@
 import type {
   ExperienceType,
   LinksType,
-  ProjectType,
   ServiceType,
-  StatsType,
   TestimonialsType,
   ToolsType,
 } from '@/types';
@@ -78,32 +76,7 @@ const socialLinks: LinksType[] = [
   },
 ];
 
-const projectsData: ProjectType[] = [
-  {
-    imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-];
+
 
 const education: ExperienceType[] = [
   {
@@ -209,21 +182,6 @@ const services: ServiceType[] = [
   },
 ];
 
-const statsData: StatsType[] = [
-  {
-    number: '30+',
-    label: 'Happy Clients',
-  },
-  {
-    number: '05+',
-    label: 'Years Of Experience',
-  },
-  {
-    number: '50+',
-    label: 'Projects Done',
-  },
-];
-
 const testimonials: TestimonialsType[] = [
   {
     name: 'Alex Tomato',
@@ -250,12 +208,10 @@ const testimonials: TestimonialsType[] = [
 
 export {
   socialLinks,
-  projectsData,
   education,
   experience,
   tools,
   services,
   navLinks,
-  statsData,
   testimonials,
 };

@@ -1,6 +1,6 @@
-import Hero from "./components/Hero"
-import Projects from "./components/Projects"
-import Stats from "./components/Stats"
+import Hero from "./features/Hero"
+import Projects from "@/features/projects/Projects"
+import Stats from "./features/stats/Stats"
 
 const App = () => {
   return (

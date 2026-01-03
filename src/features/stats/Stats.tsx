@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
 import { fadeUp, staggerContainer } from "@/lib/animations"
-import { statsData } from "@/constants"
+import { statsData } from "@/features/stats/stats.Data"
 
 const Stats = () => {
   return (

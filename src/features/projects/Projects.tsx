@@ -1,7 +1,7 @@
 import { motion } from "motion/react"
 import { staggerContainer } from "@/lib/animations"
-import { projectsData } from "@/constants"
-import SectionHeader from "./SectionHeader"
+import { projectsData } from "@/features/projects/projects.data"
+import SectionHeader from "@/components/SectionHeader"
 import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
